@@ -1,13 +1,6 @@
-/* Comments in CSS file */
-
 body{
-  color: red;
-}
-
-ul{
-  color: blue;
-}
-
-li{
-  color: green;
+  width: 200px;
+  border: 30px solid blue;
+  padding: 40px 50px 40px 70px;
+  margin: 100px 50px 300px 400px;
 }
