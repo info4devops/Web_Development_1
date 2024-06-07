@@ -1,0 +1,83 @@
+
+/*Case-1: Adding Colour to body*/
+body{
+  background-color: aquamarine;
+}
+/*Case-2: Adding Colour to hedder tags*/
+h1{
+  color: brown;
+}
+
+h2{
+  color: palevioletred;
+}
+
+/*Case-3: Adding Colour to List Elements*/
+li{
+  color: rgb(90, 90, 240);
+
+}
+
+/*Case-4: change backgroung for paragraph*/
+p{
+  background-color: bisque;
+}
+
+
+/*Case-5: Make all inputs have a 5px border with red color*/
+input{
+  border: 5px red solid;
+}
+
+
+/*Case-6: Set blue background with class attribute hello and text color as white*/
+.hello{
+  background: blue;
+  color: white;
+}
+
+/*Case-8: Give 10px orange solid border for id attribute "special"*/
+
+#special{
+  border: 10px orange solid;
+}
+
+
+/*Case-9: Make only inputs with type 'text' have a green background*/
+
+input[type="text"]{
+  background: green;
+
+}
+
+/*Case-10: Make all "checked" check boxes have a left margin of 50px*/
+
+input:checked{
+  margin-left: 50px;
+}
+
+/*Case-11: Make the <label> elements all UPPERCASE without changing in html*/
+
+label{
+  text-transform: uppercase;
+}
+
+/*Case-12: Make the first letter of the element with id "special" with green color and 100 px font-size*/
+
+#special::first-letter{
+  color: green;
+  font-size: 100px;
+}
+
+/*Case-13: Make <h1> element color change to white when hovered[when we place cursor] and give 10px solid red border*/
+
+h1:hover{
+  color: white;
+  border: 10px red solid;
+}
+
+/*Case-14: Make all <a> elements that have been visited with yellow color*/
+
+a:visited{
+  color: yellow;
+}
