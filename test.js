@@ -1,2 +1,3 @@
-10+20;
-console.log(10+20)
+function wish(){
+  console.log('Good Morning!!')
+}
