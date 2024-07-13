@@ -32,7 +32,7 @@ function changeColor(){
   h22.style.color = getRandomColor()
   ul1.style.color = getRandomColor()
   ul2.style.color = getRandomColor()
-  document.body.style.background=getRandomColor() // for backround color
+  document.body.style.background=getRandomColor() // for background color
   }
 
   setInterval(changeColor,1000)
